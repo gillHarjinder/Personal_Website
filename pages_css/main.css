@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    padding: 40px;
+    padding: 30px;
     background-color: #FFFFFF;
 }
 
@@ -30,6 +30,56 @@ div .col-1 a{
 }
 
 
+.jumbotron {
+    background: url(../img/background.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.jumbotron .container{
+    margin-left: 60px;
+
+}
+
+.jumbotron p {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 50px;
+    font-family: cursive;
+    direction: ltr;
+}
+
+
+.jumbotron a {
+    color: #fff;
+    font-size: 40px;
+    font-family: cursive;
+    direction: ltr;
+}
+
+
+.footer {
+    height: 0;
+    padding: 20px 0px 75px;
+    margin-top: 80px;
+    background-color: #eee;
+    font-size: 14px;
+}
+.footer p {
+    float: left;
+    width: 33%;
+}
+.footer a {
+    color: #d8192f;
+}
+.a-center {
+    text-align: center;
+}
+.a-right {
+    text-align: right;
+}
 
 
 
