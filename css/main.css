@@ -15,11 +15,17 @@ body {
     background-color: #FFFFFF;
 }
 
+.row .col-1 a{
+    text-decoration: none !important; 
+    color: #000000;  
+}
+
 .header h1 {
     margin: 0;
     padding: 0;
     display: inline;
     margin-right: 300px;
+    font-family: cursive;
 }
 
 .nav {
@@ -38,6 +44,7 @@ body {
 .nav li a{
     text-decoration: none !important;
 }
+
 
 .nav li:hover {
     border-bottom: 1px solid #00ffbc;
@@ -60,9 +67,9 @@ body {
 }
 
 .jumbotron p {
-    margin-top: 50px;
+    margin-top: 40px;
     color: #fff;
-    font-size: 40px;
+    font-size: 55px;
     font-family: cursive;
     direction: ltr;
 }
