@@ -23,22 +23,26 @@ body {
 .header h1 {
     margin: 0;
     padding: 0;
-    display: inline;
-    margin-right: 300px;
+    display: inline-block;
     font-family: cursive;
+    margin-right: 250px;
 }
 
 .nav {
     display: inline-block;
-    margin: 0;
-    padding: 8px 0;
+
 }
+
 .nav li {
     color: #fff;
-    display: inline;
-    font-size: 14px;
-    margin-right: 30px;
-    padding: 0 0 5px;
+    background-color: #C02942;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: #FFFFFF;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
 }
 
 .nav li a{
@@ -47,9 +51,15 @@ body {
 
 
 .nav li:hover {
-    border-bottom: 1px solid #00ffbc;
-    color: #00ffbc;
-    cursor: pointer;
+    -webkit-box-shadow: 0 0 8px #00ffbc;
+    -moz-box-shadow: 0 0 8px #00ffbc;
+    box-shadow: 0 0 8px #00ffbc;
+    cursor:pointer;
+}
+
+.highlighted{
+    display: inline;
+    margin-right: 50px;
 }
 
 /* For first page*/
