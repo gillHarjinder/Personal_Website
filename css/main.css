@@ -36,13 +36,14 @@ body {
 .nav li {
     color: #fff;
     background-color: #C02942;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     font-family: Verdana, Arial, Sans-Serif;
     color: #FFFFFF;
     width: 100px;
     height: 25px;
     display: inline-block;
+    
 }
 
 .nav li a{
