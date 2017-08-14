@@ -94,25 +94,6 @@ body {
 
 
 
-.footer {
-    position: absolute;
-    padding-left: 5px;
-    bottom: 10px;
-    font-size: 14px;
-}
-.footer p {
-    float: left;
-    margin-left: 4cm;
-}
-.footer a {
-    color: #00ff00;
-}
-
-.a-right {
-    text-align: center;
-}
-
-
 
 
 
