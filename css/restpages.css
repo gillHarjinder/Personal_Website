@@ -1,0 +1,107 @@
+html,
+body {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-origin: content-box;
+}
+
+
+.container {
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px;
+}
+
+.row .col-1 a{
+    text-decoration: none !important; 
+    color: #000000;  
+}
+
+
+.header h1 {
+    margin: 0;
+    margin-left: 2cm;
+    padding: 0;
+    font-family: Verdana;
+    color: #00ff00;
+}
+
+/* for about page*/
+
+.jumbotron2 p {
+	position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+
+/* Contact and Project page*/
+/* for PROJECTS page*/
+
+.jumbotron3 {
+    background-image: url("../img/background3.jpg");
+    background-size: 50%;
+    background-size: cover;
+    height: 600px;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+img.displayed {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+.jumbotron3 p {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.linkedin{
+  text-align: center;
+}
+
+.linkedin a{
+    text-decoration: none !important;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+.footer {
+    position: absolute;
+    padding-left: 5px;
+    bottom: 10px;
+    font-size: 14px;
+}
+.footer p {
+    float: left;
+    margin-left: 4cm;
+}
+.footer a {
+    color: #00ff00;
+}
+
+.a-right {
+    text-align: center;
+}

@@ -1,9 +1,15 @@
 html,
 body {
-    margin: 0;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;    
+    margin: 0 auto;
     padding: 0;
+    width: 100%;
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    background-origin: content-box;
 }
 .container {
     min-width: 320px;
@@ -19,12 +25,13 @@ body {
     color: #000000;  
 }
 
+
 .header h1 {
     margin: 0;
     margin-left: 2cm;
     padding: 0;
-    font-family: fantasy, Arial, Sans-Serif;
-    color: #000000;
+    font-family: Verdana;
+    color: #00ff00;
 }
 
 
@@ -33,9 +40,7 @@ body {
     margin-left: 1cm;
     font-family: Verdana, Arial, Sans-Serif;
     color: #FFFFFF;
-
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
 .nav li a{
@@ -56,96 +61,51 @@ body {
 }
 
 /* For first page*/
-.jumbotron {
-    background: url(../img/background.jpg) no-repeat center center;
-    background-size: cover;
-    height: 700px;
-    padding-top: 25px;
-    margin-bottom: 0;
+
+#img1{
+    position: relative;
+    left: 30px;
+
+}
+#img2{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    
+
+}
+#img3{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+
 }
 
-
-
-.jumbotron p {
-    margin-top: 40px;
-    color: #fff;
-    font-size: 55px;
-    font-family: cursive;
-    text-align: center;
+.jumbotron .nav{
+    position: absolute;
+    padding-left: 5px;
+    bottom: 10px;
+    font-size: 14px;
 }
 
-/* for about page*/
-
-.jumbotron2 {
-    background: url(../img/background2.jpg) no-repeat center center;
-    background-size: cover;
-    height: 1000px;
-    padding-top: 25px;
-    margin-bottom: 0;
+.jumbotron a{
+    color: #00ff00;
 }
 
-
-.jumbotron2 p {
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    font-family: cursive;
-}
-
-
-/* for PROJECTS page*/
-
-.jumbotron3 {
-    background-image: url("../img/background3.jpg");
-    background-size: 50%;
-    background-size: cover;
-    height: 600px;
-    padding-top: 25px;
-    margin-bottom: 0;
-}
-
-img.displayed {
-    margin-top: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-
-.jumbotron3 p {
-    color: #000000;
-    text-align: center;
-    margin-bottom: 100px;
-    font-size: 40px;
-    font-family: monospace;
-}
-
-.linkedin{
-  text-align: center;
-}
-
-.linkedin a{
-    text-decoration: none !important;
-    color: blue;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: monospace;
-}
 
 
 .footer {
-    height: 20px;
-    padding: 20px 0px 75px;
-    background-color: #eee;
+    position: absolute;
+    padding-left: 5px;
+    bottom: 10px;
     font-size: 14px;
 }
 .footer p {
     float: left;
     margin-left: 4cm;
-    width: 20%;
 }
 .footer a {
-    color: #000000;
+    color: #00ff00;
 }
 
 .a-right {
