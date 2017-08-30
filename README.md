@@ -3,4 +3,4 @@ Personal web site which display as portfolio
 
 visit Website at:
 
-harjindersgill.com
+http://www.harjindersgill.com
